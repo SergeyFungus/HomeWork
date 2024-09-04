@@ -1,11 +1,10 @@
 first = int(input())
 second = int(input())
 third = int(input())
-count = 0
-if first == second:
-    count = count + 1
-if first == third:
-    count = count + 1
-if second == third:
-    count = count + 1
+if first == second and first == third and second == third:
+    count = 3
+elif first == third or first == third or second == third :
+    count = 2
+else:
+    count = 0
 print(count)
