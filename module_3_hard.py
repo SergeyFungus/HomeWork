@@ -24,8 +24,6 @@ def calculate_structure_sum(*args):
     for i in args:
         sum += calculate_structure_sum(i)
 
-    print(type(args))
-    return 'ERROR'
 
 
 
