@@ -9,3 +9,5 @@ def get_multiplied_digits(number):
 
 result = get_multiplied_digits(40203) # Функция возвращает 0 в данном случае т.к. требовалось
 print(result)                         # вычислить произведение всех цифр числа, а 0 тоже
+result = get_multiplied_digits(41213)
+print(result)
